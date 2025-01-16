@@ -7,21 +7,25 @@ function revealExercice(a, godHand) {
             document.getElementById("divExo2").setAttribute("style", "display: none;")
             document.getElementById("divExo3").setAttribute("style", "display: none;")
             document.getElementById("divExo4").setAttribute("style", "display: none;")
+            document.getElementById("menuPhone").classList.add("hidden")
         }
         if (a == 2) {
             document.getElementById("divExo1").setAttribute("style", "display: none;")
             document.getElementById("divExo3").setAttribute("style", "display: none;")
             document.getElementById("divExo4").setAttribute("style", "display: none;")
+            document.getElementById("menuPhone").classList.add("hidden")
         }
         if (a == 3) {
             document.getElementById("divExo1").setAttribute("style", "display: none;")
             document.getElementById("divExo2").setAttribute("style", "display: none;")
             document.getElementById("divExo4").setAttribute("style", "display: none;")
+            document.getElementById("menuPhone").classList.add("hidden")
         }
         if (a == 4) {
             document.getElementById("divExo1").setAttribute("style", "display: none;")
             document.getElementById("divExo2").setAttribute("style", "display: none;")
             document.getElementById("divExo3").setAttribute("style", "display: none;")
+            document.getElementById("menuPhone").classList.add("hidden")
         }
 
     } else if (godHand != null) {
@@ -35,11 +39,17 @@ function revealExercice(a, godHand) {
 
 }
 
-function revealMenu() {
-    if (document.getElementById("PhoneMenu").classList.contains("showMenu")) {
-
+function revealMenu(state) {
+    if (state == true) {
+        document.getElementById("menuPhone").classList.remove("hidden")
+        // document.getElementById("menuPhone").setAttribute("style", "display: none;")
+        console.log("statue = true")
     }
-
+    else if (state == false) {
+        document.getElementById("menuPhone").classList.add("hidden")
+        // document.getElementById("menuPhone").removeAttribute("style", "display: none;")
+        console.log("statue = false")
+    }
 }
 
 
@@ -198,7 +208,7 @@ function JustPrix() {
             document.getElementById("CountJustePrix").innerHTML = "";
             document.getElementById("inputJustePrix").setAttribute("disabled", "");
             document.getElementById("btnSubmitJustePrix").setAttribute("disabled", "");
-            document.getElementById("btnSubmitJustePrix").classList.add("py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700")
+            document.getElementById("btnSubmitJustePrix").classList.add("py-2.5", "px-5", "text-sm", "font-medium", "text-gray-900", "focus:outline-none", "bg-white", "rounded-lg", "border", "border-gray-200", "hover:bg-gray-100", "hover:text-blue-700", "focus:z-10", "focus:ring-4", "focus:ring-gray-100", "dark:focus:ring-gray-700", "dark:bg-gray-800", "dark:text-gray-400", "dark:border-gray-600", "dark:hover:text-white", "dark:hover:bg-gray-700")
         }
         else if (a != randomNb) {
             console.log("You lose")
