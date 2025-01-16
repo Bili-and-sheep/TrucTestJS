@@ -110,7 +110,8 @@ const Birth = {
 
     }
 }
-document.addEventListener('DOMContentLoaded', Birth.init())
+
+
 
 
 
@@ -208,3 +209,10 @@ function JustPrix() {
     }
 
 }
+
+
+
+
+// Event Listner 
+
+document.addEventListener('DOMContentLoaded', Birth.init())
