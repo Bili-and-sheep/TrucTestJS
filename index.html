@@ -20,7 +20,7 @@
                 </a>
             </div>
 
-            <div class="hidden lg:flex lg:gap-x-12">
+            <div class="hidden md:flex lg:gap-x-12 md:gap-x-12">
                 <a href="#" id="SelectExo1" onclick="revealExercice(1 )"
                     class="text-6sm font-semibold text-gray-900">Exo1</a>
                 <a href="#" id="SelectExo2" onclick="revealExercice(2 )"
@@ -30,16 +30,16 @@
                 <a href="#" id="SelectExo4" onclick="revealExercice(4 )"
                     class="text-6sm font-semibold text-gray-900">Exo4</a>
             </div>
-            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+            <div class="hidden md:flex lg:flex-1 lg:justify-end">
                 <a href="#" class="text-7xl font-semibold text-gray-900">☜</a>
             </div>
         </nav>
 
-        <div class="lg:hidden" role="dialog" aria-modal="true">
+        <div class="md:hidden" role="dialog" aria-modal="true">
             <!-- Background backdrop, show/hide based on slide-over state. -->
-            <div class="fixed inset-0 z-10"></div>
-            <div
-                class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div class="fixed inset-0 z-10 "></div>
+            <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 none"
+                onclick="revealMenu()" id="PhoneMenu">
                 <div class="flex items-center justify-between">
                     <a href="#" class="-m-1.5 p-1.5">
                         <span class="sr-only">Your Company</span>
@@ -88,7 +88,8 @@
 
             <div class="text-center">
 
-                <h1 class="text-wrap text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Choose your
+                <h1 class="text-wrap text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Choose <bold
+                        class="texte-purple-2597C">your</bold>
                     exercice ☝︎</h1>
 
                 <!-- <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Anim aute id magna aliqua ad
@@ -108,7 +109,7 @@
                                 class="w-full p-4 my-1 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                 placeholder="" />
                             <button id="btnSubmitPaire" type="submit"
-                                class="text-white my-1 end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+                                class="text-white my-1 end-2.5 bottom-2.5 bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800">Submit</button>
                         </div>
                     </form>
 

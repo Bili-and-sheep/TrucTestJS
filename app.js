@@ -35,6 +35,12 @@ function revealExercice(a, godHand) {
 
 }
 
+function revealMenu() {
+    if (document.getElementById("PhoneMenu").classList.contains("showMenu")) {
+
+    }
+
+}
 
 
 
