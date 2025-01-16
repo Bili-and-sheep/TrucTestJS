@@ -8,19 +8,17 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 ## 📁 Structure du projet
 
 ```
-📂 projet-js-tailwind
-├── 📁 public
-│   ├── index.html
-│   ├── exercice1.html
-│   ├── exercice2.html
-│   ├── exercice3.html
-│   └── exercice4.html
-├── 📁 src
-│   ├── main.js
-│   └── styles.css
-├── tailwind.config.js
-├── package.json
-└── README.md
+📂 TrucTestJS
+├── app.js
+├── index.html
+├── 📂 public
+│   └── 📂 img
+│       └── DuckBreadSteal.jpg
+├── readme.md
+├── 📂 src
+│   └── output.css
+├── style.css
+└── tailwind.config.js
 ```
 
 ---
@@ -29,7 +27,7 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 
 1. Clone le dépôt :
    ```bash
-   git clone https://github.com/ton-utilisateur/ton-projet.git
+   git clone https://github.com/Bili-and-sheep/TrucTestJS.git
    cd ton-projet
    ```
 
@@ -40,13 +38,9 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 
 3. Compile le CSS Tailwind :
    ```bash
-   npm run build
+   npx tailwindcss -i ./style.css -o ./src/output.css --watch
    ```
 
-4. Lance un serveur local (optionnel) :
-   ```bash
-   npm run dev
-   ```
 
 ---
 
@@ -55,7 +49,7 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 ### 🔢 Exercice 1 : [Titre de l'exercice 1]
 **Description** : Remplace ce texte par une description de l'exercice. Par exemple : *"Créer une calculatrice simple qui effectue des opérations de base."*
 
-- **Fichier HTML** : `exercice1.html`
+
 - **Objectif principal** : Décrire brièvement ce que l'utilisateur doit accomplir.
 - **Bonus** : Liste des éventuels challenges supplémentaires.
 
@@ -64,7 +58,7 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 ### 🕹️ Exercice 2 : [Titre de l'exercice 2]
 **Description** : Remplace ce texte par une description de l'exercice. Par exemple : *"Créer une TODO list interactive avec ajout et suppression de tâches."*
 
-- **Fichier HTML** : `exercice2.html`
+
 - **Objectif principal** : Décrire brièvement ce que l'utilisateur doit accomplir.
 - **Bonus** : Liste des éventuels challenges supplémentaires.
 
@@ -73,7 +67,7 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 ### 🎨 Exercice 3 : [Titre de l'exercice 3]
 **Description** : Remplace ce texte par une description de l'exercice. Par exemple : *"Créer un système de sélection de thème (clair/sombre)."*
 
-- **Fichier HTML** : `exercice3.html`
+
 - **Objectif principal** : Décrire brièvement ce que l'utilisateur doit accomplir.
 - **Bonus** : Liste des éventuels challenges supplémentaires.
 
@@ -82,7 +76,7 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 ### ⏲️ Exercice 4 : [Titre de l'exercice 4]
 **Description** : Remplace ce texte par une description de l'exercice. Par exemple : *"Créer un chronomètre fonctionnel avec démarrage, pause et réinitialisation."*
 
-- **Fichier HTML** : `exercice4.html`
+
 - **Objectif principal** : Décrire brièvement ce que l'utilisateur doit accomplir.
 - **Bonus** : Liste des éventuels challenges supplémentaires.
 
