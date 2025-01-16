@@ -33,7 +33,7 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 
 2.	Installe les dépendances :
 
-   ``````bash
+   ```bash
    npm install
 
 
