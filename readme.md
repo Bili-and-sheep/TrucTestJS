@@ -51,7 +51,7 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 
 
 - **Objectif principal** : Pratiquer les conditions en JavaScript.
-- **Bonus** : Ajouter une gestion des erreurs pour les entrées non numériques.
+
 
 ---
 
@@ -60,7 +60,7 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 
 
 - **Objectif principal** : Travailler avec les entrées utilisateur et les calculs de date.
-- **Bonus** : Gérer les cas où l'année entrée est dans le futur.
+
 
 ---
 
@@ -69,7 +69,7 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 
 
 - **Objectif principal** : Manipuler les entrées multiples et effectuer des calculs.
-- **Bonus** : Ajouter un bouton pour réinitialiser les champs.
+
 
 ---
 
