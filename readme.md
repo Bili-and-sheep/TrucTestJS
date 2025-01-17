@@ -28,7 +28,7 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 1. Clone le dépôt :
    ```bash
    git clone https://github.com/Bili-and-sheep/TrucTestJS.git
-   cd ton-projet
+   cd TrucTestJS
    ```
 
 2. Installe les dépendances :
