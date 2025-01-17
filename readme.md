@@ -46,39 +46,39 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 
 ## 📚 Exercices
 
-### 🔢 Exercice 1 : [Titre de l'exercice 1]
-**Description** : Remplace ce texte par une description de l'exercice. Par exemple : *"Créer une calculatrice simple qui effectue des opérations de base."*
+### 🔢 Exercice 1 : Chiffre Pair ou Impair
+**Description** : Cet exercice demande à l'utilisateur d'entrer un chiffre, puis indique si ce dernier est pair ou impair.
 
 
-- **Objectif principal** : Décrire brièvement ce que l'utilisateur doit accomplir.
-- **Bonus** : Liste des éventuels challenges supplémentaires.
-
----
-
-### 🕹️ Exercice 2 : [Titre de l'exercice 2]
-**Description** : Remplace ce texte par une description de l'exercice. Par exemple : *"Créer une TODO list interactive avec ajout et suppression de tâches."*
-
-
-- **Objectif principal** : Décrire brièvement ce que l'utilisateur doit accomplir.
-- **Bonus** : Liste des éventuels challenges supplémentaires.
+- **Objectif principal** : Pratiquer les conditions en JavaScript.
+- **Bonus** : Ajouter une gestion des erreurs pour les entrées non numériques.
 
 ---
 
-### 🎨 Exercice 3 : [Titre de l'exercice 3]
-**Description** : Remplace ce texte par une description de l'exercice. Par exemple : *"Créer un système de sélection de thème (clair/sombre)."*
+### 🕹️ Exercice 2 : Calcul de l'âge
+**Description** : L'utilisateur entre son année de naissance, et l'application calcule et affiche son âge.
 
 
-- **Objectif principal** : Décrire brièvement ce que l'utilisateur doit accomplir.
-- **Bonus** : Liste des éventuels challenges supplémentaires.
+- **Objectif principal** : Travailler avec les entrées utilisateur et les calculs de date.
+- **Bonus** : Gérer les cas où l'année entrée est dans le futur.
 
 ---
 
-### ⏲️ Exercice 4 : [Titre de l'exercice 4]
-**Description** : Remplace ce texte par une description de l'exercice. Par exemple : *"Créer un chronomètre fonctionnel avec démarrage, pause et réinitialisation."*
+### 🎨 Exercice 3 : Calcul de surface en m²
+**Description** : L'utilisateur entre la largeur et la longueur d'une pièce, et le programme calcule sa surface en m².
 
 
-- **Objectif principal** : Décrire brièvement ce que l'utilisateur doit accomplir.
-- **Bonus** : Liste des éventuels challenges supplémentaires.
+- **Objectif principal** : Manipuler les entrées multiples et effectuer des calculs.
+- **Bonus** : Ajouter un bouton pour réinitialiser les champs.
+
+---
+
+### ⏲️ Exercice 4 : Le Juste Prix
+**Description** : Un nombre aléatoire est généré, et l'utilisateur doit deviner ce nombre en recevant des indications ("plus" ou "moins").
+
+
+- **Objectif principal** : Travailler avec des boucles et des événements en JavaScript.
+- **Bonus** : Ajouter une limite de tentatives et un message personnalisé si le joueur échoue.
 
 ---
 
