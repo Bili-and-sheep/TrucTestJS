@@ -11,7 +11,6 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 📂 TrucTestJS
 ├── index.html
 ├── 📂js
-│   ├── eventListener.js
 │   ├── exo1.js
 │   ├── exo2.js
 │   ├── exo3.js
@@ -23,9 +22,14 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 │       ├── DuckBreadSteal.jpg
 │       └── halfLifeError.png
 ├── readme.md
-├── 📂src
-│   └── output.css
-├── style.css
+├── 📂style
+│   ├── 📂scss
+│   │   ├── style.css
+│   │   ├── style.css.map
+│   │   └── style.scss
+│   └── 📂tailwind
+│       ├── output.css
+│       └── output.css.map
 └── tailwind.config.js
 ```
 

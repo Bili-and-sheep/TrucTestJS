@@ -17,10 +17,10 @@ const Birth = {
         TodayYears = TodayDate.getFullYear();
 
 
-        console.log("Today fulldate :", TodayYears)
-        console.log("Input Date :", ageInput)
+        // console.log("Today fulldate :", TodayYears)
+        // console.log("Input Date :", ageInput)
         birthdate = TodayYears - ageInput
-        console.log("vous avez :", TodayYears - ageInput)
+        // console.log("vous avez :", TodayYears - ageInput)
 
         document.getElementById("TextUnderSubBirth").innerHTML = "Tu as " + birthdate + " ans";
 

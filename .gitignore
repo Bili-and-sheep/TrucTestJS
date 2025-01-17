@@ -1,4 +1,6 @@
+src/output.css.map
 style.scss
 style.css.map
 style.css
-./src/output.css.map
+style/tailwind/output.css
+style/tailwind/output.css.map
