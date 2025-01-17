@@ -9,13 +9,21 @@ Ce projet est une collection de **4 exercices** simples visant à pratiquer Java
 
 ```
 📂 TrucTestJS
-├── app.js
 ├── index.html
-├── 📂 public
-│   └── 📂 img
-│       └── DuckBreadSteal.jpg
+├── 📂js
+│   ├── eventListener.js
+│   ├── exo1.js
+│   ├── exo2.js
+│   ├── exo3.js
+│   ├── exo4.js
+│   ├── exo5.js
+│   └── revealExercice.js
+├── 📂public
+│   └── 📂img
+│       ├── DuckBreadSteal.jpg
+│       └── halfLifeError.png
 ├── readme.md
-├── 📂 src
+├── 📂src
 │   └── output.css
 ├── style.css
 └── tailwind.config.js
