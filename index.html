@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ExoJS</title>
-    <link href="./src/output.css" rel="stylesheet">
+    <link href="./style/tailwind/output.css" rel="stylesheet">
     <link rel="shortcut icon" href="./public/img/DuckBreadSteal.jpg" type="image/x-icon">
 </head>
 
@@ -219,12 +219,46 @@
                     </div>
 
                     <div id="divExo5"
-                        class="block max-w-sm p-6  border  rounded-lg shadow  bg-gray-800 border-gray-700 hover:bg-gray-700"
+                        class=" block max-w-sm p-6  border  rounded-lg shadow  bg-gray-800 border-gray-700 hover:bg-gray-700"
                         style="display: none;">
+                        <!-- <button type="button" id="createCard"
+                            class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">
+                            Test</button> -->
+
                         <h2 id="exerciceTitle"
                             class="ext-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
                             L'exercice est en cours de création (WIP)</h2>
-                        <!-- <img src="./public/img/halfLifeError.png"> -->
+                        <img src="./public/img/halfLifeError.png">
+
+                        <!-- flip card html -->
+
+                        <!-- <div class="wrapper">
+                            <div class="card">
+                                <input type="checkbox" id="card1" class="more" aria-hidden="true">
+                                <div class="content">
+                                    <div class="front">
+                                        <div class="inner">
+                                            <label for="card1" class="button" aria-hidden="true">
+                                                Details
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="back">
+                                        <div class="inner">
+                                            <label for="card1" class="button return" aria-hidden="true">
+                                                <span>☜</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -243,8 +277,8 @@
 
 
 
-<script src="./js/revealExercice.js"></script>
 <script src="./js/eventListener.js"></script>
+<script src="./js/revealExercice.js"></script>
 <script src="./js/exo1.js"></script>
 <script src="./js/exo2.js"></script>
 <script src="./js/exo3.js"></script>
